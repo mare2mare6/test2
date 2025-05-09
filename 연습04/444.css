@@ -1,0 +1,109 @@
+/* 버튼들을 담을 컨테이너 스타일 */
+.button-container {
+  display: flex;               /* 수평으로 나열 */
+  flex-wrap: wrap;             /* 버튼이 공간을 넘칠 경우 다음 줄로 내려감 */     
+  justify-content: center;     /* 버튼들을 가운데 정렬 */
+
+}
+
+/* 버튼 기본 스타일 */
+button {
+  background-color: lightgray;  /* 기본 배경색: 회색 */
+  border: 2px solid lightgray;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* 각 버튼에 색상 개별 지정 (마우스를 올렸을 때 바뀔 색상) */
+.btn1:hover { background-color: lightblue; }
+.btn2:hover { background-color: lightcoral; }
+.btn3:hover { background-color: lightgreen; }
+.btn4:hover { background-color: lightyellow; }
+.btn5:hover { background-color: lightpink; }
+.btn6:hover { background-color: lightseagreen; }
+.btn7:hover { background-color: lightgoldenrodyellow; }
+.btn8:hover { background-color: lightcyan; }
+.btn9:hover { background-color: lightsteelblue; }
+.btn10:hover { background-color: lightskyblue; }
+.btn11:hover { background-color: lightseagreen; }
+.btn12:hover { background-color: lightgray; }
+.btn13:hover { background-color: lightsalmon; }
+.btn14:hover { background-color: lightpink; }
+.btn15:hover { background-color: lightblue; }
+.btn16:hover { background-color: lightgoldenrodyellow; }
+.btn17:hover { background-color: lightgreen; }
+.btn18:hover { background-color: lightcyan; }
+.btn19:hover { background-color: lightcoral; }
+.btn20:hover { background-color: lightyellow; }
+.btn21:hover { background-color: lightseagreen; }
+.btn22:hover { background-color: lightsteelblue; }
+.btn23:hover { background-color: lightpink; }
+.btn24:hover { background-color: lightblue; }
+.btn25:hover { background-color: lightgreen; }
+.btn26:hover { background-color: lightgray; }
+.btn27:hover { background-color: lightyellow; }
+.btn28:hover { background-color: lightcoral; }
+.btn29:hover { background-color: lightskyblue; }
+.btn30:hover { background-color: lightpink; }
+.btn31:hover { background-color: lightblue; }
+.btn32:hover { background-color: lightgreen; }
+.btn33:hover { background-color: lightseagreen; }
+.btn34:hover { background-color: lightcyan; }
+.btn35:hover { background-color: lightsteelblue; }
+.btn36:hover { background-color: lightyellow; }
+.btn37:hover { background-color: lightpink; }
+.btn38:hover { background-color: lightcoral; }
+.btn39:hover { background-color: lightgoldenrodyellow; }
+.btn40:hover { background-color: lightblue; }
+.btn41:hover { background-color: lightgreen; }
+.btn42:hover { background-color: lightyellow; }
+.btn43:hover { background-color: lightpink; }
+.btn44:hover { background-color: lightseagreen; }
+.btn45:hover { background-color: lightcyan; }
+.btn46:hover { background-color: lightgoldenrodyellow; }
+.btn47:hover { background-color: lightgray; }
+.btn48:hover { background-color: lightsteelblue; }
+.btn49:hover { background-color: lightseagreen; }
+.btn50:hover { background-color: lightyellow; }
+.btn51:hover { background-color: lightgreen; }
+.btn52:hover { background-color: lightpink; }
+.btn53:hover { background-color: lightblue; }
+.btn54:hover { background-color: lightgoldenrodyellow; }
+.btn55:hover { background-color: lightcoral; }
+.btn56:hover { background-color: lightgray; }
+.btn57:hover { background-color: lightcyan; }
+.btn58:hover { background-color: lightyellow; }
+.btn59:hover { background-color: lightsteelblue; }
+.btn60:hover { background-color: lightseagreen; }
+.btn61:hover { background-color: lightblue; }
+.btn62:hover { background-color: lightgreen; }
+.btn63:hover { background-color: lightgray; }
+.btn64:hover { background-color: lightpink; }
+.btn65:hover { background-color: lightcoral; }
+.btn66:hover { background-color: lightyellow; }
+.btn67:hover { background-color: lightcyan; }
+.btn68:hover { background-color: lightblue; }
+.btn69:hover { background-color: lightsteelblue; }
+.btn70:hover { background-color: lightgreen; }
+.btn71:hover { background-color: lightgoldenrodyellow; }
+.btn72:hover { background-color: lightcoral; }
+.btn73:hover { background-color: lightseagreen; }
+.btn74:hover { background-color: lightgray; }
+.btn75:hover { background-color: lightyellow; }
+.btn76:hover { background-color: lightblue; }
+.btn77:hover { background-color: lightcyan; }
+.btn78:hover { background-color: lightseagreen; }
+.btn79:hover { background-color: lightpink; }
+.btn80:hover { background-color: lightgoldenrodyellow; }
+.btn81:hover { background-color: lightsteelblue; }
+.btn82:hover { background-color: lightgreen; }
+.btn83:hover { background-color: lightcoral; }
+.btn84:hover { background-color: lightyellow; }
+.btn85:hover { background-color: lightgray; }
+.btn86:hover { background-color: lightseagreen; }
+.btn87:hover { background-color: lightcyan; }
+.btn88:hover { background-color: lightblue; }
+.btn89:hover { background-color: lightsteelblue; }
+.btn90:hover { background-color: lightpink; }

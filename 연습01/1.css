@@ -1,0 +1,35 @@
+/* 스타일 기본 설정 */
+body {
+    font-family: 'Pretendard', sans-serif;
+    padding: 30px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .notice {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  del {
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  ins {
+    color: #1a73e8;
+    text-decoration: none;
+    border-bottom: 2px solid #1a73e8;
+    padding: 0 4px;
+  }
+  
+  mark {
+    background-color: #fff89a;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
