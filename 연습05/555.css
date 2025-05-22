@@ -61,3 +61,11 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
+
+#todo-list li span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
