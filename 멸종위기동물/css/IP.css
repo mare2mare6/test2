@@ -1,0 +1,16 @@
+@import "./reset.css";
+
+@import "./header.css";
+@import "./footer.css";
+@import "./main.css";
+@import "./login.css";
+@import "./animals.css";
+@import "./action.css";
+@import "./quiz.css";
+@import "./causes.css";
+
+
+:root {
+  --maincolor: #405448;
+  --hovercolor: #4a8a62;
+}

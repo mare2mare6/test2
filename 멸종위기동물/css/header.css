@@ -1,0 +1,59 @@
+/* header.css */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:var(--maincolor);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /*요소의 쌓이는 순서.숫자가 클수록 위에 표시.*/
+}
+
+header .logo{
+  margin-top: 5px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 50px;
+  border-radius: 4px;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #ffffff;
+}
+
+header .auth a {
+  background-color: #fff;
+  color:var(--maincolor);
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-right: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+header .auth a:hover {
+  background-color: #467f5f;
+  color: white;
+  cursor: pointer;
+}

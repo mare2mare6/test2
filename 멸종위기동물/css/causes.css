@@ -1,0 +1,44 @@
+/* causes.css */
+
+main {
+  padding: 100px 0px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  min-height: calc(100vh - 140px);
+  color: #333;
+}
+
+.cause__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e8b57;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.causes-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cause-item {
+  background: white;
+  border-bottom: 3px dotted #dbdbdb; /* 원하는 색상과 두께 */
+  padding-bottom: 16px; /* 텍스트가 선에 안 붙도록 여백 */
+  margin-bottom: 24px;  /* 아래 요소와 간격 */
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.cause-item h3 {
+  color: #2e8b57;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.cause-item p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+}

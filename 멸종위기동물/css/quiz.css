@@ -1,0 +1,67 @@
+/* quiz.css */
+
+main {
+  padding: 100px 0px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  min-height: calc(100vh - 140px);
+  color: #333;
+}
+
+.quiz-section {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.quiz-section h2 {
+  text-align: center;
+  color: var(--maincolor);
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.quiz-item {
+  margin-bottom: 20px;
+}
+
+.quiz-item p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.quiz-item label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 1rem;
+}
+
+button#submit-btn {
+  display: block;
+  margin: 30px auto 0;
+  background-color:var(--maincolor);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#submit-btn:hover {
+  background-color: var(-hovercolor);
+}
+
+.result-box {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2e8b57;
+  font-weight: 700;
+}
