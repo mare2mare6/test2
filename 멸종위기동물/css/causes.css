@@ -1,5 +1,3 @@
-/* causes.css */
-
 main {
   padding: 100px 0px 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,9 +21,9 @@ main {
 
 .cause-item {
   background: white;
-  border-bottom: 3px dotted #dbdbdb; /* 원하는 색상과 두께 */
-  padding-bottom: 16px; /* 텍스트가 선에 안 붙도록 여백 */
-  margin-bottom: 24px;  /* 아래 요소와 간격 */
+  border-bottom: 3px dotted #dbdbdb;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
   padding: 25px 30px;
   margin-bottom: 25px;
   user-select: none;

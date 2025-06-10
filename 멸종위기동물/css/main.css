@@ -8,8 +8,7 @@ main {
   background-color: #fff;
 }
 
-/* 슬라이더 전체 영역 */
-.slider {
+.main__slider {
   width: 100%;
   height: 340px;
   position: relative;
@@ -18,13 +17,12 @@ main {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  user-select: none; /*슬라이더 내부 텍스트나 요소가 드래그 선택되지 않도록 막음.*/
+  user-select: none;
   background-color: #000000;
-  overflow: hidden; /* 버튼 튀어나오는 거 방지 */
+  overflow: hidden;
 }
 
-/* 슬라이드 이미지 */
-.slider img {
+.main__slider img {
   width: 540px;
   height: 340px;
   object-fit: cover;
@@ -32,7 +30,6 @@ main {
   position: relative;
 }
 
-/* 공통 버튼 스타일 */
 .main__slider-btn {
   position: absolute;
   top: 50%;
@@ -43,17 +40,14 @@ main {
   z-index: 10;
 }
 
-/* 왼쪽 버튼 */
 .main__slider-btn.left {
   left: 20px;
 }
 
-/* 오른쪽 버튼 */
 .main__slider-btn.right {
   right: 20px;
 }
 
-/* 아래쪽 인디케이터 바 */
 .slider-bar {
   width: 150px;
   height: 5px;
@@ -64,25 +58,21 @@ main {
   display: flex;
 }
 
-/* 인디케이터 아이템 공통 */
 .main__slider-bar-item {
   background-color: white;
   height: 100%;
   margin: 0 2px;
 }
 
-/* 현재 위치 표시용 (활성) */
 .main__slider-bar-item--visible {
   width: 50%;
 }
 
-/* 비활성 인디케이터 */
 .main__slider-bar-item--invisible {
   width: 25%;
   opacity: 0.5;
 }
 
-/* 소개글 섹션 */
 .intro {
   max-width: 900px;
   margin: 0 auto 100px;
@@ -104,7 +94,6 @@ main {
   vertical-align: text-bottom;
 }
 
-/* 하단 박스 4개 */
 .bottom-boxes {
   display: flex;
   gap: 20px;
@@ -137,7 +126,7 @@ main {
 .actions-preview {
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* 카드 사이 간격 */
+  gap: 20px;
   padding: 40px 20px;
   border-bottom: 2px solid #dbdbdb;
 }
@@ -210,9 +199,9 @@ main {
     position: static;
     width: 50%;
     display: flex;
-    flex-direction: column;      /* 자식 요소 세로 정렬 */
-    justify-content: center;     /* 세로 가운데 */
-    align-items: center;         /* 가로 가운데 */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;  
     padding: 40px;
 }

@@ -1,39 +1,32 @@
-/* login.css */
-
-/* 🔷 main 영역: 전체 레이아웃 정렬 및 배경 설정 */
 main {
-  padding: 100px 30px 50px; /* 상 좌 하 */
+  padding: 100px 30px 50px;
   background-color: #ffffff;
-  min-height: calc(100vh - 140px); /* 푸터 포함 전체 높이 보장 */
-  display: flex; /* 수평 정렬용 Flex */
-  justify-content: center; /* 가운데 정렬 */
-  align-items: center; /* 수직 가운데 정렬 */
+  min-height: calc(100vh - 140px); /* 스크롤 없이 전체 화면을 꽉 채우되, 해더푸터 합쳐서 140px은 제외하고 최소높이유지지 */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
-/* 🔷 로그인 박스 전체 */
 .login-container {
-  background: white; /* 흰색 배경 */
-  padding: 40px 100px; /* 내부 여백 */
-  border-radius: 12px; /* 모서리 둥글게 */
-  box-shadow: 0 0 12px rgba(0,0,0,0.1); /* 그림자 효과 */
-  width: 350px; /* 고정 너비 */
-  text-align: center; /* 텍스트 가운데 정렬 */
+  background: white;
+  padding: 40px 100px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
 }
 
-/* 🔷 로그인 제목 */
-.login-container h2 {
+.login__title {
   color:var(--maincolor);
   margin-bottom: 10px;
   font-size: 2rem;
   font-weight: bold;
 }
 
-.subtext {
+.login__subtext {
   margin-bottom: 30px;
 }
 
-
-/* 🔷 입력 필드: 아이디 / 비밀번호 */
 .login-container input[type="text"],
 .login-container input[type="password"] {
   width: 100%;
@@ -45,7 +38,6 @@ main {
   box-sizing: border-box;
 }
 
-/* 🔷 공통 버튼 스타일 (로그인, 회원가입 버튼 모두 해당) */
 .signup-btn {
   width: 100%;
   background-color:var(--maincolor);
@@ -59,12 +51,10 @@ main {
   margin-top: 20px;
 }
 
-/* 🔷 버튼 hover 시 배경색 변경 */
 .signup-btn:hover {
   background-color: var(--hovercolor);
 }
 
-/* 🔷 회원가입 안내 텍스트 */
 .signup-box p {
   font-size: 0.9rem;
   color: #555;
