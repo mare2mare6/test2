@@ -18,10 +18,11 @@ main {
 }
 
 .quiz-section h2 {
+    font-size: 2rem;
+  font-weight: bold;
+  color:var(--hovercolor);
   text-align: center;
-  color: var(--maincolor);
-  margin-bottom: 30px;
-  font-size: 2rem;
+  margin-bottom: 40px;
 }
 
 .quiz-item {

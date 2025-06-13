@@ -180,19 +180,21 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
+    border-bottom:solid 2px #dbdbdb;
 }
 
 .main__intro-container-img {
     position: relative;
     width: 70%;
     height: 100%;
+    margin-bottom: 50px;
 }
 
 .main__intro-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.7);
+    filter: brightness(0.8);
 }
 
 .main__intro-text-container {
@@ -220,6 +222,22 @@ main {
 
 .main__intro-title--black, .main__intro-description--black {
     color: black;
+}
+
+.main__animal img {
+  width: 300px;
+  height: 220px;
+  margin: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.205);
+}
+
+.main__animal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--maincolor);
+  text-align: center;
+  margin: 30px;
 }
 
 a {

@@ -6,6 +6,10 @@
   margin-bottom: 30px;
 }
 
+.action__letter {
+    font-weight: 500;
+    color: var(--maincolor);
+}
 
 .action__intro-container {
     border-radius: 12px;
