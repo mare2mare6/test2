@@ -1,9 +1,7 @@
-/* main.css */
-
 main {
   display: flex;
   flex-direction: column;
-  padding: 100px 0 0;
+  padding: 70px 0 0;
   color: #333;
   background-color: #fff;
 }
@@ -27,7 +25,6 @@ main {
   height: 340px;
   object-fit: cover;
   display: block;
-  position: relative;
 }
 
 .main__slider-btn {
@@ -167,11 +164,8 @@ main {
   font-weight: 600;
 }
 
-.main__intro-container-img, .main__intro-container {
-    width: 1500px;
-    height: auto;
-    overflow: hidden;
-    margin: 25px
+.main__intro-container {
+  margin: 25px
 }
 
 .main__intro-container {
@@ -220,15 +214,12 @@ main {
     font-size: 18px;
 }
 
-.main__intro-title--black, .main__intro-description--black {
-    color: black;
-}
-
 .main__animal img {
   width: 300px;
   height: 220px;
   margin: 20px;
   margin-bottom: 50px;
+  object-fit: cover;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.205);
 }
 

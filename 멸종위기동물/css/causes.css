@@ -1,6 +1,5 @@
 main {
   padding: 100px 0px 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ffffff;
   min-height: calc(100vh - 140px);
   color: #333;
@@ -9,7 +8,7 @@ main {
 .cause__title {
   font-size: 2rem;
   font-weight: bold;
-  color: #2e8b57;
+  color:var(--hovercolor);
   text-align: center;
   margin-bottom: 30px;
 }

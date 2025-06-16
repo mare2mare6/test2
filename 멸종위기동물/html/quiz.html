@@ -5,7 +5,6 @@
   <title>동물 퀴즈 | FadePaw</title>
     <link rel="icon" href="../img/발바닥_gr.png" type="image/png" />
   <link rel="stylesheet" href="../css/IP.css" />
-  <script defer src="../quiz.js"></script>
   <script src="https://kit.fontawesome.com/1e84bb8efa.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -31,41 +30,37 @@
       <form id="quiz-form">
         <div class="quiz-item">
           <p>1. 아무르 표범은 어느 지역에 주로 서식하나요?</p>
-          <label><input type="radio" name="q1" value="0" /> 아프리카</label>
-          <label><input type="radio" name="q1" value="1" /> 극동 러시아 및 중국 동부</label>
-          <label><input type="radio" name="q1" value="0" /> 남미</label>
+          <label><input type="radio" name="q1"/> 아프리카</label>
+          <label><input type="radio" name="q1"/> 극동 러시아 및 중국 동부</label>
+          <label><input type="radio" name="q1"/> 남미</label>
         </div>
 
         <div class="quiz-item">
           <p>2. 멸종 위기에 가장 큰 영향을 미치는 원인은 무엇인가요?</p>
-          <label><input type="radio" name="q2" value="0" /> 서식지 파괴</label>
-          <label><input type="radio" name="q2" value="1" /> 기후 변화</label>
-          <label><input type="radio" name="q2" value="0" /> 천적 증가</label>
+          <label><input type="radio" name="q2"/> 서식지 파괴</label>
+          <label><input type="radio" name="q2"/> 기후 변화</label>
+          <label><input type="radio" name="q2"/> 천적 증가</label>
         </div>
 
         
         <div class="quiz-item">
           <p>3. 멸종위기동물을 보호하기 위한 방법으로 적절하지 않은 것은?</p>
-          <label><input type="radio" name="q3" value="0" /> 후원과 기부</label>
-          <label><input type="radio" name="q3" value="0" /> 봉사 활동 참여</label>
-          <label><input type="radio" name="q3" value="1" /> 서식지 파괴 촉진</label>
+          <label><input type="radio" name="q3"/> 후원과 기부</label>
+          <label><input type="radio" name="q3"/> 봉사 활동 참여</label>
+          <label><input type="radio" name="q3"/> 서식지 파괴 촉진</label>
         </div>
         
         <div class="quiz-item">
           <p>4. 다음 중 ‘세계에서 가장 개체 수가 적은 해양 포유류’는 무엇인가요?</p>
-          <label><input type="radio" name="q4" value="0" /> 고래상어</label>
-          <label><input type="radio" name="q4" value="1" /> 바키타</label>
-          <label><input type="radio" name="q4" value="0" /> 듀공</label>
-          <label><input type="radio" name="q4" value="0" /> 돌고래</label>
+          <label><input type="radio" name="q4"/> 고래상어</label>
+          <label><input type="radio" name="q4"/> 바키타</label>
+          <label><input type="radio" name="q4"/> 듀공</label>
+          <label><input type="radio" name="q4"/> 돌고래</label>
         </div>
 
         <button type="button" id="submit-btn">제출하기</button>
       </form>
-      
-      <div id="result" class="result-box" style="display:none;">
-        <h3>퀴즈 결과</h3>
-        <p id="score"></p>
-      </div>
+
     </section>
 
         <img class="footprint" src="../img/animals.img/발바닥___.png".png alt="">
