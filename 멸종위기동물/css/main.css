@@ -71,7 +71,7 @@ main {
 }
 
 .intro {
-  max-width: 900px;
+  width: 900px;
   margin: 0 auto 100px;
   text-align: center;
 }
@@ -88,41 +88,12 @@ main {
 }
 
 .intro__img {
-  vertical-align: text-bottom;
-}
-
-.bottom-boxes {
-  display: flex;
-  gap: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.box {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex: 1 1 220px;
-  text-align: center;
-}
-
-.box h3 {
-  color: var(--hovercolor);
-  margin-bottom: 10px;
-  font-size: 1.3rem;
-}
-
-.box p {
-  font-size: 1rem;
-  color: #666;
+  vertical-align: text-bottom; /* 요소의 수직 정렬 위치를 기준선(text baseline) 하단으로 맞추는 속성*/
 }
 
 .actions-preview {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;/*아이템을 좌우 끝에 붙이고, 사이 공간을 균등하게 나눔*/
   gap: 20px;
   padding: 40px 20px;
   border-bottom: 2px solid #dbdbdb;
@@ -192,7 +163,6 @@ main {
 }
 
 .main__intro-text-container {
-    position: static;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -232,7 +202,7 @@ main {
 }
 
 a {
-    color: inherit;
+    color: inherit; /*링크 텍스트가 부모 요소의 글자색을 그대로 물려받음*/
     text-decoration: none;
 }
 
