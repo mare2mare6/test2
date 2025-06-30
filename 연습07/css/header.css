@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:96.5%;
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  max-width: 600px; /* ← nav가 너무 길지 않게 제한 */
+  width: 100%;
+}
+
+.header__1234 {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
