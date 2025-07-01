@@ -140,6 +140,7 @@ a {
 
 /* 응원 메시지 */
 .comments {
+  margin-top: 60px;
   background: #f9f9f9;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
