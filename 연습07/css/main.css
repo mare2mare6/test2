@@ -1,0 +1,226 @@
+
+body {
+  font-family: 'Pretendard', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+
+.nav a {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero__content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+.hero__content p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+.btn {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border-radius: 999px;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #555;
+}
+
+.section {
+  padding: 80px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.gallery__grid, .goods__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.img-box {
+  background: #ddd;
+  height: 200px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.link-more {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.goods-title {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.commission {
+  text-align: center;
+}
+.btn-outline {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  color: #333;
+  border-radius: 999px;
+}
+.btn-outline:hover {
+  background: #eee;
+}
+
+.about__links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.about__links a {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* 작업 과정 */
+.process .gallery__grid .img-box {
+  background: #eee;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* 응원 메시지 */
+.comments {
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.comment-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.comment-list li {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+.comment-form {
+  display: flex;
+  gap: 10px;
+}
+.comment-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.comment-form button {
+  padding: 10px 16px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.comment-form button:hover {
+  background: #555;
+}
+
+/* 타임라인 섹션 전체를 가로로 정렬 */
+.timeline-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* 타임라인 (기존과 동일) */
+.timeline {
+  flex: 1;
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+}
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+.timeline-date {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 6px;
+}
+.timeline-content {
+  font-size: 0.95rem;
+  color: #555;
+  padding-left: 10px;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: 3px;
+  width: 12px;
+  height: 12px;
+  background: #333;
+  border-radius: 50%;
+}
+
+/* 이미지 박스 */
+.timeline-img-wrap {
+  flex-shrink: 0;
+  width: 600px;
+}
+.timeline-img-wrap img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
