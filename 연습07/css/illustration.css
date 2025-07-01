@@ -1,14 +1,13 @@
 .main-content {
   font-family: 'Pretendard', sans-serif;
-  background: #fff;
+  background-color: #ffffff;
   color: #222;
-  padding: 80px 50px;
+  padding: 100px 0px;
 }
 
 .isrt__title {
   text-align: center;
-  border-bottom: dashed 2px brown ;
-  margin: 30px;
+  background-color: white;
 }
 
 .isrt__title h1 {
@@ -19,11 +18,13 @@
 
 .year-section {
   margin-bottom: 70px;
+  background-color: #ffffff;
+  margin: 80px;
 }
 .year-title {
   font-size: 1.4rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #000000;
   border-left: 4px solid #ccc;
   padding-left: 12px;
 }
