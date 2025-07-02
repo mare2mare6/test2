@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookMaster - 요리의 모든 것</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="index__container">
+        <!-- Header -->
+        <header class="index__header">
+            <div class="index__header-container">
+                <div class="index__header-left">
+                    <div class="index__logo">
+                        <h1 class="index__logo-text">CookMaster</h1>
+                        <span class="index__logo-subtitle">요리의 모든 것</span>
+                    </div>
+                </div>
+                <nav class="index__navigation">
+                    <ul class="index__navigation-list">
+                        <li class="index__navigation-item">
+                            <a href="#" class="index__navigation-link">홈</a>
+                        </li>
+                        <li class="index__navigation-item">
+                            <a href="#" class="index__navigation-link">레시피</a>
+                        </li>
+                        <li class="index__navigation-item">
+                            <a href="#" class="index__navigation-link">재료</a>
+                        </li>
+                        <li class="index__navigation-item">
+                            <a href="#" class="index__navigation-link">팁</a>
+                        </li>
+                        <li class="index__navigation-item">
+                            <a href="#" class="index__navigation-link">커뮤니티</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="index__header-right">
+                    <button class="index__search-button">검색</button>
+                    <button class="index__login-button">로그인</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="index__main">
+            <div class="index__content-wrapper">
+                <!-- Left Section -->
+                <section class="index__left-section">
+                    <div class="index__hero-area">
+                        <div class="index__hero-content">
+                            <h2 class="index__hero-title">오늘의 추천 레시피</h2>
+                            <p class="index__hero-description">집에서 쉽게 만들 수 있는 맛있는 요리를 소개합니다</p>
+                            <button class="index__hero-button">레시피 보기</button>
+                        </div>
+                        <div class="index__hero-image">
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop" alt="오늘의 추천 요리" class="index__hero-img">
+                        </div>
+                    </div>
+
+                    <div class="index__featured-recipes">
+                        <h3 class="index__featured-title">인기 레시피</h3>
+                        <div class="index__recipe-grid">
+                            <div class="index__recipe-card">
+                                <div class="index__recipe-image">
+                                    <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=200&h=150&fit=crop" alt="김치찌개" class="index__recipe-img">
+                                </div>
+                                <div class="index__recipe-info">
+                                    <h4 class="index__recipe-name">김치찌개</h4>
+                                    <p class="index__recipe-time">조리시간: 30분</p>
+                                    <p class="index__recipe-difficulty">난이도: 쉬움</p>
+                                    <div class="index__recipe-rating">
+                                        <span class="index__recipe-stars">★★★★☆</span>
+                                        <span class="index__recipe-score">4.2</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="index__recipe-card">
+                                <div class="index__recipe-image">
+                                    <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=200&h=150&fit=crop" alt="불고기" class="index__recipe-img">
+                                </div>
+                                <div class="index__recipe-info">
+                                    <h4 class="index__recipe-name">불고기</h4>
+                                    <p class="index__recipe-time">조리시간: 45분</p>
+                                    <p class="index__recipe-difficulty">난이도: 보통</p>
+                                    <div class="index__recipe-rating">
+                                        <span class="index__recipe-stars">★★★★★</span>
+                                        <span class="index__recipe-score">4.8</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="index__recipe-card">
+                                <div class="index__recipe-image">
+                                    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=200&h=150&fit=crop" alt="된장찌개" class="index__recipe-img">
+                                </div>
+                                <div class="index__recipe-info">
+                                    <h4 class="index__recipe-name">된장찌개</h4>
+                                    <p class="index__recipe-time">조리시간: 25분</p>
+                                    <p class="index__recipe-difficulty">난이도: 쉬움</p>
+                                    <div class="index__recipe-rating">
+                                        <span class="index__recipe-stars">★★★★☆</span>
+                                        <span class="index__recipe-score">4.1</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="index__recipe-card">
+                                <div class="index__recipe-image">
+                                    <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?w=200&h=150&fit=crop" alt="비빔밥" class="index__recipe-img">
+                                </div>
+                                <div class="index__recipe-info">
+                                    <h4 class="index__recipe-name">비빔밥</h4>
+                                    <p class="index__recipe-time">조리시간: 40분</p>
+                                    <p class="index__recipe-difficulty">난이도: 보통</p>
+                                    <div class="index__recipe-rating">
+                                        <span class="index__recipe-stars">★★★★☆</span>
+                                        <span class="index__recipe-score">4.5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="index__recipe-more">
+                            <button class="index__recipe-more-button">더 많은 레시피 보기</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Right Section -->
+                <aside class="index__right-section">
+                    <div class="index__sidebar-top">
+                        <div class="index__quick-search">
+                            <h3 class="index__quick-search-title">빠른 검색</h3>
+                            <div class="index__search-tags">
+                                <span class="index__search-tag">한식</span>
+                                <span class="index__search-tag">중식</span>
+                                <span class="index__search-tag">일식</span>
+                                <span class="index__search-tag">양식</span>
+                                <span class="index__search-tag">디저트</span>
+                                <span class="index__search-tag">간식</span>
+                                <span class="index__search-tag">국물요리</span>
+                                <span class="index__search-tag">볶음요리</span>
+                            </div>
+                        </div>
+
+                        <div class="index__cooking-tips">
+                            <h3 class="index__tips-title">오늘의 요리 팁</h3>
+                            <div class="index__tips-list">
+                                <div class="index__tip-item">
+                                    <div class="index__tip-icon">💡</div>
+                                    <div class="index__tip-content">
+                                        <h4 class="index__tip-heading">양파 썰 때 눈물 안 나는 법</h4>
+                                        <p class="index__tip-text">양파를 냉장고에 30분 정도 넣어두면 매운 성분이 줄어듭니다.</p>
+                                    </div>
+                                </div>
+                                <div class="index__tip-item">
+                                    <div class="index__tip-icon">🥩</div>
+                                    <div class="index__tip-content">
+                                        <h4 class="index__tip-heading">고기 부드럽게 만들기</h4>
+                                        <p class="index__tip-text">키위나 배를 갈아서 재워두면 고기가 부드러워집니다.</p>
+                                    </div>
+                                </div>
+                                <div class="index__tip-item">
+                                    <div class="index__tip-icon">🍚</div>
+                                    <div class="index__tip-content">
+                                        <h4 class="index__tip-heading">밥 맛있게 짓기</h4>
+                                        <p class="index__tip-text">쌀을 30분 정도 불린 후 다시마를 넣고 지으면 더 맛있습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="index__sidebar-bottom">
+                        <div class="index__seasonal-ingredients">
+                            <h3 class="index__seasonal-title">이달의 제철 재료</h3>
+                            <div class="index__ingredient-list">
+                                <div class="index__ingredient-item">
+                                    <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=60&h=60&fit=crop" alt="배추" class="index__ingredient-img">
+                                    <span class="index__ingredient-name">배추</span>
+                                    <span class="index__ingredient-season">11-2월</span>
+                                </div>
+                                <div class="index__ingredient-item">
+                                    <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e38?w=60&h=60&fit=crop" alt="무" class="index__ingredient-img">
+                                    <span class="index__ingredient-name">무</span>
+                                    <span class="index__ingredient-season">10-3월</span>
+                                </div>
+                                <div class="index__ingredient-item">
+                                    <img src="https://images.unsplash.com/photo-1509358271058-acd22cc93898?w=60&h=60&fit=crop" alt="고구마" class="index__ingredient-img">
+                                    <span class="index__ingredient-name">고구마</span>
+                                    <span class="index__ingredient-season">9-12월</span>
+                                </div>
+                                <div class="index__ingredient-item">
+                                    <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=60&h=60&fit=crop" alt="사과" class="index__ingredient-img">
+                                    <span class="index__ingredient-name">사과</span>
+                                    <span class="index__ingredient-season">9-11월</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="index__newsletter">
+                            <h3 class="index__newsletter-title">🍳 뉴스레터 구독</h3>
+                            <p class="index__newsletter-description">매주 새로운 레시피와 요리 팁을 받아보세요</p>
+                            <form class="index__newsletter-form">
+                                <input type="email" placeholder="이메일 주소를 입력하세요" class="index__newsletter-input" required>
+                                <button type="submit" class="index__newsletter-button">구독하기</button>
+                            </form>
+                            <p class="index__newsletter-privacy">개인정보는 안전하게 보호됩니다</p>
+                        </div>
+
+                        <div class="index__popular-chefs">
+                            <h3 class="index__chefs-title">인기 요리사</h3>
+                            <div class="index__chefs-list">
+                                <div class="index__chef-item">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face" alt="김요리 셰프" class="index__chef-img">
+                                    <div class="index__chef-info">
+                                        <span class="index__chef-name">김요리 셰프</span>
+                                        <span class="index__chef-specialty">한식 전문</span>
+                                    </div>
+                                </div>
+                                <div class="index__chef-item">
+                                    <img src="https://images.unsplash.com/photo-1494790108755-2616c9c0e8e0?w=50&h=50&fit=crop&crop=face" alt="박맛있 셰프" class="index__chef-img">
+                                    <div class="index__chef-info">
+                                        <span class="index__chef-name">박맛있 셰프</span>
+                                        <span class="index__chef-specialty">양식 전문</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="index__footer">
+            <div class="index__footer-container">
+                <div class="index__footer-top">
+                    <div class="index__footer-section">
+                        <h4 class="index__footer-heading">CookMaster</h4>
+                        <p class="index__footer-description">
+                            요리를 사랑하는 모든 사람들을 위한 공간입니다. 맛있는 레시피와 유용한 요리 팁을 공유하며, 함께 요리의 즐거움을 나누어요.
+                        </p>
+                        <div class="index__footer-stats">
+                            <div class="index__footer-stat">
+                                <span class="index__footer-stat-number">1,234</span>
+                                <span class="index__footer-stat-label">레시피</span>
+                            </div>
+                            <div class="index__footer-stat">
+                                <span class="index__footer-stat-number">5,678</span>
+                                <span class="index__footer-stat-label">회원</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="index__footer-section">
+                        <h4 class="index__footer-heading">메뉴</h4>
+                        <ul class="index__footer-links">
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">전체 레시피</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">카테고리별 레시피</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">재료 정보</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">요리 팁</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">커뮤니티</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="index__footer-section">
+                        <h4 class="index__footer-heading">고객 지원</h4>
+                        <ul class="index__footer-links">
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">자주 묻는 질문</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">문의하기</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">레시피 제출</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">이용약관</a>
+                            </li>
+                            <li class="index__footer-link-item">
+                                <a href="#" class="index__footer-link">개인정보처리방침</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="index__footer-section">
+                        <h4 class="index__footer-heading">연락처</h4>
+                        <div class="index__contact-info">
+                            <div class="index__contact-item">
+                                <span class="index__contact-icon">📧</span>
+                                <span class="index__contact-text">info@cookmaster.com</span>
+                            </div>
+                            <div class="index__contact-item">
+                                <span class="index__contact-icon">📞</span>
+                                <span class="index__contact-text">02-1234-5678</span>
+                            </div>
+                            <div class="index__contact-item">
+                                <span class="index__contact-icon">📍</span>
+                                <span class="index__contact-text">서울시 강남구 요리로 123</span>
+                            </div>
+                            <div class="index__contact-item">
+                                <span class="index__contact-icon">🕒</span>
+                                <span class="index__contact-text">평일 09:00 - 18:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="index__footer-bottom">
+                    <div class="index__footer-bottom-left">
+                        <p class="index__copyright">© 2024 CookMaster. All rights reserved.</p>
+                        <p class="index__footer-note">모든 레시피는 저작권법의 보호를 받습니다.</p>
+                    </div>
+                    <div class="index__footer-bottom-right">
+                        <div class="index__social-links">
+                            <a href="#" class="index__social-link index__social-link--facebook">Facebook</a>
+                            <a href="#" class="index__social-link index__social-link--instagram">Instagram</a>
+                            <a href="#" class="index__social-link index__social-link--youtube">YouTube</a>
+                            <a href="#" class="index__social-link index__social-link--twitter">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
