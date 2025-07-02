@@ -298,9 +298,7 @@
   display: flex;
   gap: 15px;
   padding: 15px;
-  background-color: #f9fafb;
-  border-radius: 8px;
-  border-left: 4px solid #d97706;
+  border-left: 3px solid #d97706;
 }
 
 .index__tip-icon {
